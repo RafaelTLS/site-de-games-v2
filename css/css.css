@@ -1,0 +1,144 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+html {
+	background: #1a1a1a;
+	height: auto;
+	width: auto;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', 'Rubik', sans-serif;
+	color: #eb4034;
+	position: relative;
+	display: block;
+}
+
+h1, h2 {
+	font-family: 'Oswald', sans-serif;
+}
+
+a, p {
+	text-decoration: none;
+	color: inherit;
+	transition: 0.3s;
+}
+
+p > a {
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #d11147;
+}
+
+header {
+	background-color: #eb4034;
+}
+
+header h1 {
+	color: #fefefe;
+	padding: 30px 50px;
+}
+
+header h1 a:hover{
+	color: #1a1a1a;
+}
+
+main {
+	background-color: #fefefe;
+	padding: 20px 55px 10px 55px;
+}
+
+form {
+	box-sizing: box;
+	text-align: center;
+}
+
+input, textarea {
+	width: 70%;
+	height: 25%;
+	font-family: Arial;
+	font-size: 16px;
+	padding: 12px 20px;
+	display: inline-block;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+}
+
+li.container {
+	overflow: hidden;
+	vertical-align: center;
+}
+
+section#left {
+	width: 48%;
+	float:left;
+}
+
+section#right {
+	margin-left: 520px;
+}
+
+section#right h2, article h2 {
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+section#right h3, article h3 {
+	font-size: 30px;
+}
+
+section#right p {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+article p {
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+
+figure figcaption {
+	font-style: italic;
+}
+
+p#text {
+	padding: 15px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+label, span {
+	display: inline-block;
+	width: 20%;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 10px;
+	margin: 0;
+}
+
+img#front {
+	width: 500px;
+	height: 150px;
+	object-fit: cover;
+}
+
+footer {
+	text-align: center;
+	padding-top: 30px;
+	color: #efefef;
+}
